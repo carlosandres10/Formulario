@@ -1,0 +1,111 @@
+
+.autobus{
+    width: 700px;
+    min-width: 300px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 1px #fff;
+    margin: 10px ;
+    
+}
+
+.autobus img{
+    width: 150px;
+    display: block;
+    margin: 20px auto;
+
+}
+
+.modul1 input{
+    
+    margin: 15px;
+    height: 40px;
+    display: inline-block;
+    width: 45%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;  
+    
+}
+
+.modul2 input{
+    
+    margin: 15px;
+    height: 40px;
+    display: inline-block;
+    width: 45%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+
+.modul3 input{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+}
+
+.modul3 select{
+    display: block;
+    margin: auto;
+    height: 40px;
+    width: 75%;
+    padding-left: 10px;
+    color: rgb(8, 8, 8);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: transparent;
+    font-size: 1rem;
+    outline: none;
+    
+}
+
+.modul3 input[type="chofer"]{
+    margin-top: 20px;
+}
+
+.modul3 input[type="licencia"]{
+    margin-top: 20px;
+}
+
+.autobus button{
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 78%;
+    background-color: aliceblue;
+    color: #0a0a0a;
+    border-radius: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+}
+
+.autobus button:hover{
+    color: #d5dbdd;
+    border: 2px solid #3498db;
+    background: linear-gradient(#34495e, #2c3e50);
+}
